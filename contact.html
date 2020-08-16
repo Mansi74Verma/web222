@@ -1,0 +1,169 @@
+<!DOCTYPE html <head>
+<link rel="stylesheet" href="css/project.css" />
+<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Mansi's Kitchen</title>
+<script src="menu_data.js"></script>
+<script src="script.js"></script>
+</head>
+
+
+
+<body>
+  <div class=" banner">
+    <img src="img/banner.jpg" />
+    <div class="text">
+      <h2>Welcome to Mansi's Kitchen</h2>
+      <p>Don't miss the opportunity to enjoy the delicious food.</p><br /><br /><br /><br />
+      <a href="#menu"><button class="a" name="more info">MORE INFO</button></a>
+    </div>
+  </div>
+
+  <div class="mainhead">
+    <div class="logo">
+      <h1>Yumm....</h1>
+    </div>
+    <div class="navbar">
+      <ul>
+        <li><a href="index.html">ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#testimonials">TESTIMONIALS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <section id="contact">
+    <div class="y">
+
+
+      <div class="c1">
+        <h1>Contact Us</h1>
+        <hr class="line5" />
+        <p>You can contact us here.</p>
+      </div>
+
+
+      <div class="c2">
+
+        <div class="c3">
+          <h1>ADDRESS</h1>
+          <hr class="line6" />
+          <p>4321 Harbour St,<br /><br />
+            Toronto, Ontario</p>
+        </div>
+
+        <div class="c3">
+          <h1>WORKING HOURS</h1>
+          <hr class="line6" />
+          <p>Tuesday-Sunday: 7:00am - 2:00pm <br /><br />
+            Monday: CLOSED</p>
+        </div>
+
+        <div class="c3">
+          <h1>CONTACT INFO</h1>
+          <hr class="line6" />
+          <p>Phone: +1 647 XXX XXXX<br /><br />
+            Email: info@company.com</p>
+        </div>
+      </div>
+
+      <div class="c4">
+        <form action=" https://httpbin.org/post" method="POST">
+          <h1>LEAVE US A MESSAGE</h1>
+
+          <div class="formsub">
+            <input class="inputtext" type="text" name="a" placeholder="Name" value maxlength="20" required="required" />
+          </div><br /><br />
+
+          <div class="formsub">
+            <input type="email" name="b" placeholder="Email" required="required" />
+          </div><br /><br />
+
+          <div class="formsub">
+            <textarea name="address" class="form_sub" rows="2" placeholder="Address" required="required"></textarea>
+          </div><br>
+
+
+          <input name="city" type="text" class="form_sub" list="browsers" name="browser" id="browser" placeholder="City"
+            required="required" autocomplete="off">
+          <datalist id="browsers">
+            <option value="Calgary">
+            <option value="Quebec City">
+            <option value="Edmonton">
+            <option value="Toronto">
+            <option value="Montreal">
+            <option value="Winnipeg"></option>
+          </datalist>
+
+          <br><br>
+
+
+          <input type="text" name="a" placeholder="Postal Code"
+            pattern="^[a-zA-Z]{1}[0-9]{1}[a-zA-Z]{1}[- ]{0,1}[0-9]{1}[a-zA-Z]{1}[0-9]{1}" required="required">
+
+          <br><br>
+
+          <div class="form_sub">
+            <div class="formcheck">
+              <input class="inputcheck" type="radio" name="question" id="question" value="question" onclick="hide()">
+              <label class="labelcheck" for="inlineRadio1"> Question </label>
+            </div>
+            <div class="formcheck">
+              <input class="inputcheck" type="radio" name="comment" id="comment" value="comment" onclick="hide()">
+              <label class="labelcheck" for="inlineRadio2">Comment</label>
+            </div>
+            <div class="formcheck">
+              <input class="inputcheck" type="radio" name="order-problem" id="order-problem" value="order-problem"
+                onclick="show()">
+              <label class="labelcheck" for="inlineRadio3">Order-Problem</label>
+            </div>
+          </div>
+          <br>
+
+
+          <input name="extrablock" id="extrablock" style="display: none;" type="text" class="form_sub"
+            placeholder="Mention your concern">
+          <br>
+
+          <div class="form_sub">
+            <textarea> Message</textarea>
+          </div><br /><br /><br />
+
+          <div class="form_sub">
+            <input type="hidden" name="Mansi" id="Mansi" value="value" />
+          </div>
+
+
+
+
+
+          <button type="submit" class="b1">Submit</button>
+        </form>
+
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+  <div class="footer">
+    <div class="f1">
+      <ul>
+        <a href="https://www.facebook.com/Mansis_Kitchen">
+          <li><i class="fa fa-facebook-f"></i></li>
+        </a>
+        <a href="https://www.twitter.com/Mansis_Kitchen">
+          <li><i class="fa fa-twitter"></i></li>
+        </a>
+        <a href="https://www.google.com/Mansis_Kitchen">
+          <li><i class="fa fa-google-plus"></i></li>
+        </a>
+      </ul>
+
+    </div>
+  </div>

@@ -1,0 +1,513 @@
+/*
+Name: Mansi Verma
+Seneca ID: 141641191
+Email: mverma37@myseneca
+Date: August 10,2020
+*/
+
+/*
+For I had good experience for designing. I designed a template when I was in 11th standard but I did it all by myself. I
+did all the coding for css
+from what I remember from my coaching classes and javascript files from what I learned from Seneca coding. I did not
+share my code with anyone. Neither
+did I help anyone. The last assignment suspection made me bit scary so I make it pretty sure not to help anyone. Rest It
+tooks a lot of time to code it.
+Because I was thinking to score for more this time instead of lowering my marks. I apologize for the last one though.
+Thank you !
+*/
+/*
+Tried to go just a bit for the form but I will improve it for final assessment later on.
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.banner {
+  width: 100%;
+  height: 900px;
+  position: relative;
+}
+.banner img {
+  width: 100%;
+  height: 900px;
+}
+.mainhead {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: 0;
+}
+.logo {
+  width: 25%;
+  height: 150px;
+  float: left;
+}
+.logo h1 {
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin-top: 25px;
+}
+.navbar {
+  width: 75%;
+  height: 150px;
+  float: left;
+}
+.navbar ul {
+  text-align: right;
+  list-style: none;
+  color: rgba(255, 255, 255, 1);
+}
+.navbar ul li {
+  display: inline-block;
+  padding: 42px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar ul li a:hover {
+  color: rgb(243, 76, 46);
+}
+.text {
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 1);
+}
+.text h2 {
+  font-size: 70px;
+  margin-top: 310px;
+}
+.text p {
+  font-size: 36px;
+}
+.a {
+  width: 10%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(243, 76, 46);
+  border-style: none;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+}
+#about {
+  width: 100%;
+  height: 650px;
+}
+.a1 {
+  width: 90%;
+  height: 650px;
+  margin: auto;
+}
+.line {
+  width: 12%;
+  border: 2px solid rgb(243, 76, 46);
+}
+.half1 {
+  width: 49.6%;
+  height: 650px;
+  float: left;
+}
+.half1 span {
+  color: rgb(243, 76, 46) n;
+}
+.half1 h1 {
+  font-size: 50px;
+  margin-top: 100px;
+}
+.half1 p {
+  font-size: 18px;
+  margin-top: 50px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.b {
+  border-style: none;
+  width: 33%;
+  color: rgba(255, 255, 255, 1);
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(243, 76, 46);
+}
+.half2 {
+  width: 50%;
+  height: 650px;
+  float: right;
+}
+.one {
+  width: 46.7%;
+  padding: 9px;
+  height: 630px;
+  float: left;
+}
+.one img {
+  width: 100%;
+  height: 250px;
+  margin-top: 100px;
+}
+.one h1 {
+  color: rgba(0, 0, 0, 0.6);
+  padding-top: 10px;
+}
+.one p {
+  padding-top: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+#services {
+  width: 100%;
+  height: 855px;
+  background-color: rgb(88, 88, 88);
+}
+.s2 {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  color: white;
+}
+.s2 h1 {
+  font-size: 50px;
+  padding-top: 112px;
+}
+.line1 {
+  margin: auto;
+  width: 5%;
+  color: white;
+  margin-top: 10px;
+  border: 2px solid white;
+}
+.s2 p {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.s1 {
+  width: 100%;
+  height: 552px;
+}
+.s3 {
+  width: 21%;
+  height: 550px;
+  float: left;
+  margin-left: 44px;
+}
+.s3 img {
+  width: 70%;
+  border-radius: 50%;
+  border: 10px solid rgb(136, 136, 136);
+  margin-top: 50px;
+  margin-left: 35px;
+}
+.s3 h1 {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  margin-top: 25px;
+}
+
+.s3 p {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-size: 19px;
+}
+#menu {
+  width: 100%;
+  height: 1300px;
+  background-color: rgba(236, 226, 226, 0.3);
+}
+.x {
+  width: 83%;
+  height: 100%;
+  margin: auto;
+}
+
+.g1 {
+  width: 100%;
+  height: 350px;
+}
+.g1 h1 {
+  text-align: center;
+  font-size: 45px;
+  padding-top: 100px;
+}
+
+.line3 {
+  width: 5%;
+  border: 2px solid rgb(243, 76, 46);
+  margin: auto;
+  margin-top: 10px;
+}
+
+.g1 p {
+  text-align: center;
+  font-size: 23px;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.g1 ul {
+  list-style: none;
+  text-align: center;
+}
+.g1 ul li {
+  display: inline-block;
+  padding: 11px;
+  margin-top: -30px;
+  margin-left: 20px;
+}
+.button1 {
+  background-color: rgb(243, 76, 46);
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 1);
+}
+.button2 {
+  background-color: rgba(204, 204, 204, 0.3);
+  border-radius: 5px;
+  color: rgba(102, 102, 102, 1);
+}
+.button2:hover {
+  background-color: rgb(243, 76, 46);
+  color: rgba(255, 255, 255, 1);
+}
+.g3 {
+  width: 100%;
+  /* height:946px; */
+}
+
+.g2 {
+  width: 30%;
+  height: 230px;
+  float: left;
+  margin: 17px;
+  position: relative;
+}
+.g2 img {
+  width: 100%;
+  height: 230px;
+}
+.outer {
+  width: 100%;
+  height: 230px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.outer h1 {
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 100px;
+}
+
+.g2:hover .outer {
+  display: block;
+}
+
+.g3 > h1 {
+  text-align: center;
+  font-size: 45px;
+  padding-top: 100px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#testimonials {
+  height: 500px;
+}
+.t1 {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(88, 88, 88);
+}
+
+.t1 h1 {
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-size: 45px;
+  padding-top: 110px;
+}
+.line4 {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  width: 5%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.t1 p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  margin-top: 70px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#contact {
+  width: 100%;
+  height: 1500px;
+  background-color: rgba(204, 204, 204, 0.1);
+}
+.y {
+  width: 80%;
+  height: 1500px;
+  margin: auto;
+}
+
+.c1 {
+  width: 100%;
+  height: 250px;
+}
+.c1 h1 {
+  text-align: center;
+  font-size: 45px;
+  padding-top: 80px;
+}
+
+.line5 {
+  width: 5%;
+  border: 2px solid rgb(243, 76, 46);
+  margin: auto;
+  margin-top: 10px;
+}
+.c1 p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 21px;
+  color: gray;
+}
+
+.c2 {
+  width: 100%;
+  height: 190px;
+}
+
+.c3 {
+  width: 25%;
+  height: 150px;
+  float: left;
+  margin-left: 75px;
+  margin-top: 20px;
+}
+.c3 h1 {
+  text-align: center;
+  font-size: 20px;
+}
+.line6 {
+  width: 24%;
+  border: 1px solid rgba(153, 153, 153, 0.7);
+  margin: auto;
+  margin-top: 5px;
+}
+.c3 p {
+  margin-top: 22px;
+  text-align: center;
+  font-size: 17px;
+  color: rgba(102, 102, 102, 1);
+}
+
+.c4 {
+  width: 100%;
+  height: 1000px;
+}
+.c4 h1 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.c4 input[type='text'] {
+  width: 30%;
+  height: 40px;
+  margin-left: 175px;
+  margin-top: 30px;
+  padding-left: 20px;
+  font-size: 15px;
+}
+.c4 input[type='email'] {
+  width: 30%;
+  height: 40px;
+  margin-left: 175px;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+
+.c4 textarea {
+  width: 66%;
+  /*margin-left: 175px;*/
+  height: 150px;
+  font-family: initial;
+  font-size: 17px;
+  padding-left: 15px;
+  padding-top: 10px;
+  color: gray;
+}
+
+.form_sub {
+margin-left: 175px;
+}
+
+
+.b1 {
+  margin-left: 460px;
+  border-style: none;
+  background-color: rgb(243, 76, 46);
+  border-radius: 10px;
+  width: 15%;
+  height: 50px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.b1:hover {
+  background-color: rgb(243, 76, 46);
+}
+
+.footer {
+  width: 100%;
+  height: 250px;
+  background-color: rgba(51, 51, 51, 1);
+}
+
+.f1 {
+  width: 30%;
+  height: 250px;
+  margin: auto;
+  position: relative;
+}
+.f1 ul {
+  list-style: none;
+}
+.f1 ul li {
+  display: inline-block;
+  padding: 15px;
+  background-color: rgba(102, 102, 102, 1);
+  border-radius: 50%;
+  margin-left: 62px;
+  margin-top: 57px;
+  color: rgb(243, 76, 46);
+}
+.f1 ul li:hover {
+  background-color: rgb(243, 76, 46);
+  color: rgba(255, 255, 255, 1);
+}
+
+.f1 ul li i {
+  font-size: 26px;
+}
+
+.f1 p {
+  color: gray;
+  margin-top: 40px;
+  text-align: center;
+}
+.f1 span {
+  color: rgba(204, 204, 204, 1);
+}
+.f1 span:hover {
+  color: white;
+}
